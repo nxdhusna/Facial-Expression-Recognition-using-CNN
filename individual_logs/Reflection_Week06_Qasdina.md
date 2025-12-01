@@ -8,9 +8,3 @@ The **Performance Expectation (< 500ms per frame)** will be the hardest. Running
 
 # 3. How does quality management support project success?
 Quality management prevents us from "over-engineering." By setting a specific target (85% accuracy), I know exactly when the model is "good enough" to stop training and start building the interface. Without these definitions, I might waste weeks trying to get 99% accuracy when it isn't strictly necessary for a prototype.
-
-# 4. MS Teams Evidence
-*(Insert screenshot of your Teams post here)*
-
-# 5. Schedule Updates
-*(Insert screenshot of the updated Planner/Schedule here)*
