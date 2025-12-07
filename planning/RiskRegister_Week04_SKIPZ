@@ -1,0 +1,7 @@
+| Risk ID | Risk Description | Risk Category | P (1-3) | I (1-3) | Score (P x I) | Mitigation Strategy | Assigned Owner |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **R1** | Data Skew/Bias: The dataset is not diverse enough, leading to poor performance in real-world scenarios. | Technical | 3 | 3 | 9 | Implement robust **Data Augmentation** (2.4.1) and acquire a smaller, targeted external dataset to check for bias. | **Qasdina** |
+| **R2** | Accuracy Miss: The model fails to meet the target of >= 75% accuracy during the evaluation phase (5.0). | Technical | 2 | 3 | 6 | Define a clear **Rollback Plan** to re-train the model (4.0) with a different architecture (3.1.1) or optimize hyperparameters (4.1.1). | **Angelo** |
+| **R3** | Hardware/GPU Failure: Critical computing resources fail or become unavailable during Model Training (4.3.1). | External/Technical | 2 | 3 | 6 | Utilize cloud computing backup and ensure **Model Checkpoints** (4.4.1) are saved frequently to resume training quickly. | **Nadiah** |
+| **R4** | Scope Creep: Stakeholders request additional features after the requirements sign-off (1.3.1). | Scope | 2 | 2 | 4 | Strictly enforce the approved requirements document and use a formal **Change Request Process**. | **Angelo** |
+| **R5** | Integration Delay: Difficulty integrating the trained model file with the backend/dashboard (6.2.1), causing a schedule slip. | Schedule/Technical | 2 | 2 | 4 | Dedicate a time slot early in Model Design (3.0) for **Integration Test Planning** to verify file compatibility. | **Nadiah** |
