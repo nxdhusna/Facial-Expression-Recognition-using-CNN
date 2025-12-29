@@ -1,8 +1,10 @@
-Task 3 – Communication Plan
-Communication Item	Audience	Frequency	Method
-Daily Team Sync	Angelo, Qasdina, Nadiah	Daily	WhatsApp
-Data Processing Updates	Internal Team	Milestone based	GitHub
-Weekly Progress Report	Project Sponsor (Professor)	Weekly	MS Teams
-Model Performance Logs	Angelo, Qasdina, Nadiah	Every Training Run	GitHub
-Final Evaluation Review	Internal Team	Bi-weekly	MS Teams
-Project Final Demo	Sponsor & End Users	End of Project	Live Presentation
+# Communication Plan - Week 07
+
+| Communication Item | Audience | Frequency | Method |
+| :--- | :--- | :--- | :--- |
+| **Daily Project Sync** | Angelo, Qasdina, Nadiah | Daily | WhatsApp |
+| **Data Status & Quality Report** | Angelo, Nadiah | After Data Reprocessing | GitHub / Shared Sheet |
+| **Weekly Progress Update** | Project Sponsor (Professor) | Weekly | MS Teams |
+| **Model Training & Tuning Logs** | Angelo, Qasdina | Every Training Run | GitHub / Performance Logs |
+| **Evaluation & Inference Tests** | Internal Team | Bi-weekly | MS Teams |
+| **Final Project Demo** | All Stakeholders | End of Project | Live Presentation |
