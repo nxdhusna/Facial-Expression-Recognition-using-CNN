@@ -1,10 +1,10 @@
-# Communication Plan - Week 07
+# Task 3: Project Communication Plan (SKIPZ Project)
 
 | Communication Item | Audience | Frequency | Method |
 | :--- | :--- | :--- | :--- |
-| **Daily Project Sync** | Angelo, Qasdina, Nadiah | Daily | MS Teams / Whatsapp |
-| **Data Status & Quality Report** | Angelo, Nadiah | After Data Reprocessing | GitHub |
-| **Weekly Progress Update** | Project Sponsor (Professor) | Weekly | GitHub |
-| **Model Training & Tuning Logs** | Angelo, Qasdina | Every Training Run | GitHub |
-| **Evaluation & Inference Tests** | Internal Team | Bi-weekly | MS Teams |
-| **Final Project Demo** | All Stakeholders | End of Project | Live Presentation |
+| **Daily Stand-ups** | SKIPZ Team (Angelo, Nadiah, Qasdina) | Daily | WhatsApp |
+| **Progress Reports (Milestones & WBS)** | Dr. Farhan Khan | Bi-weekly | MS Teams |
+| **Data & Model Version Control** | SKIPZ Team | As needed | GitHub |
+| **Integrity & Source Verification** | Dr. Farhan Khan | Milestone based | GitHub |
+| **Technical Risk & Code Review** | SKIPZ Team | Weekly | WhatsApp / GitHub |
+| **Final Prototype Demo** | Future Users / Supervisor | End of Project | MS Teams |
