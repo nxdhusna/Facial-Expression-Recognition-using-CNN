@@ -1,5 +1,7 @@
-Task 4 – Integration Reflection
-1. How does effective communication reduce project risks?
-By developing the Communication Plan in Task 3, I have created a framework to reduce technical and timing risks. For an AI project, the biggest risk is "Garbage In, Garbage Out." Because I am the Data Lead, the plan ensures that I am constantly syncing with Angelo (Lead) and Nadiah (Evaluation). If the "Data Reprocessing" step in our workflow has issues, the daily syncs and GitHub updates allow us to catch these errors before we waste time and computational resources on the "Train Classification Model" stage.
-2. Which stakeholder is most critical to your project’s success and why?
-The most critical stakeholder is the Internal Team (Angelo, Nadiah, and myself). Our project workflow is a linear chain where each step depends on the previous one. If I do not communicate the status of the "Labeled Dataset" clearly to the team, Angelo cannot start training, and Nadiah cannot evaluate the results. The Communication Plan I developed is the "glue" that keeps our workflow moving from "Start" to "End" without bottlenecks.
+# Task 4 – Integration Reflection
+
+### 1. How does effective communication reduce project risks?
+By designing the Communication Plan in Task 3, I have created a system to manage technical risks early. As the Data Lead, I am responsible for the "Data Reprocessing" stage of our workflow. Effective communication via **WhatsApp** and **GitHub** ensures that if I find errors in the dataset, I can alert Angelo (Project Lead) and Nadiah (Evaluation) immediately. This prevents the risk of training the model on "bad data," which would waste time and computational resources. Using **MS Teams** for weekly updates also ensures the Professor is aware of our progress, reducing the risk of failing to meet academic requirements.
+
+### 2. Which stakeholder is most critical to your project’s success and why?
+The most critical stakeholder is the **Internal Team (Angelo, Nadiah, and myself)**. Our project workflow is a linear pipeline; the "Load Trained Model" and "Inference" steps cannot happen until I complete the "Data Reprocessing" and "Split Data" steps. If we do not communicate effectively using the tools defined in Task 3, the entire workflow stops. Because our project involves complex deep learning (CNN), the hand-off between my data preparation and Angelo’s training is the most vital point of failure, making our team collaboration the highest priority.
