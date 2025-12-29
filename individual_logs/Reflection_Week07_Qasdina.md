@@ -1,0 +1,5 @@
+Task 4 – Integration Reflection
+1. How does effective communication reduce project risks?
+By developing the Communication Plan in Task 3, I have created a framework to reduce technical and timing risks. For an AI project, the biggest risk is "Garbage In, Garbage Out." Because I am the Data Lead, the plan ensures that I am constantly syncing with Angelo (Lead) and Nadiah (Evaluation). If the "Data Reprocessing" step in our workflow has issues, the daily syncs and GitHub updates allow us to catch these errors before we waste time and computational resources on the "Train Classification Model" stage.
+2. Which stakeholder is most critical to your project’s success and why?
+The most critical stakeholder is the Internal Team (Angelo, Nadiah, and myself). Our project workflow is a linear chain where each step depends on the previous one. If I do not communicate the status of the "Labeled Dataset" clearly to the team, Angelo cannot start training, and Nadiah cannot evaluate the results. The Communication Plan I developed is the "glue" that keeps our workflow moving from "Start" to "End" without bottlenecks.
