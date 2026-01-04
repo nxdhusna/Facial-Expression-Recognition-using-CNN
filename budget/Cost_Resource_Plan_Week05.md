@@ -1,6 +1,6 @@
 # Cost & Resource Plan - Week 05
 
-## Part 2 – Identify Resources
+## Identify Resources
 
 | WBS ID | Task | Resource Type | Resource Name | Quantity / Hours | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -38,7 +38,7 @@
 
 <br>
 
-## Part 3 – Summarize Costs
+## Summarize Costs
 
 | Task (Selected High-Cost Items) | Hours | Rate (RM/hr) | Total Cost (RM) |
 | :--- | :--- | :--- | :--- |
@@ -52,7 +52,7 @@
 
 <br>
 
-## Part 4 – Project Budget Overview
+## Project Budget Overview
 
 | Cost Category | Example Items | Subtotal (RM) |
 | :--- | :--- | :--- |
