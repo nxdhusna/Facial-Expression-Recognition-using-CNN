@@ -1,0 +1,5 @@
+1. Why is identifying the critical path important for project managers? It identifies the longest sequence of tasks that determines the total project duration. Knowing this allows managers to focus on activities with zero slack, where any delay will directly cause the project to finish late.
+
+2. Which activity posed the highest scheduling risk? Activity 4.3: Full Training & Optimization posed the highest risk. At 12 hours, it is the longest task in the schedule. Because it relies on continuous hardware uptime (Cloud GPU), any technical interruption forces a restart, guaranteeing a delay to the critical path.
+
+3. What trade-offs are involved when crashing a project? The main trade-off is increased cost for reduced time. Speeding up the project required paying extra for parallel GPUs and additional developers. There is also a risk of diminishing returns, where adding people creates coordination overhead rather than linear speed improvements.
