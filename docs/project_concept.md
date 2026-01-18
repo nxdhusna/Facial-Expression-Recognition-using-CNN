@@ -1,6 +1,7 @@
 **Project Concept Statement**
 
 ●	Problem Statement
+
 Facial expressions are vital for understanding human emotions and improving communication. However, accurately identifying these expressions remains challenging. This project develops a CNN-based AI model that classifies facial expressions into various emotions, aiming to enhance emotion recognition systems for applications like security, customer service, and mental health assessment.
 
 ●	Objectives 
