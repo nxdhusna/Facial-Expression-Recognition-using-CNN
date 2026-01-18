@@ -1,32 +1,30 @@
-**Project Concept Statement**
+# Project Concept Statement
 
-●	Problem Statement
+**Project Title:** SKIPZ - Facial Expression Recognition using CNN
 
-Facial expressions are vital for understanding human emotions and improving communication. However, accurately identifying these expressions remains challenging. This project develops a CNN-based AI model that classifies facial expressions into various emotions, aiming to enhance emotion recognition systems for applications like security, customer service, and mental health assessment.
+## Problem Statement
+Facial expressions are vital for understanding human emotions and improving communication. However, accurately identifying these expressions remains challenging due to variability in lighting, angles, and individual differences. This project develops a CNN-based AI model that classifies facial expressions into various emotions, aiming to enhance emotion recognition systems for applications like security, customer service, and mental health assessment.
 
-●	Objectives 
-1.	To collect and prepare a dataset of at least 10,000 labeled facial expression images.
-2.	To develop and train a CNN model capable of classifying facial expressions with a minimum 75% accuracy.
-3.	To integrate the model into a prototype that performs expression classification within 500 milliseconds per image.
-4.	To thoroughly evaluate the model's performance and document the project's development and results.
+## Objectives
+1. **Data Collection:** To collect and prepare a dataset of at least 10,000 labeled facial expression images.
+2. **Model Development:** To develop and train a CNN model capable of classifying facial expressions with a minimum **80% accuracy**.
+3. **Real-Time Performance:** To integrate the model into a prototype that performs expression classification within 500 milliseconds per image.
+4. **Documentation:** To thoroughly evaluate the model's performance and document the project's development and results.
 
-●	Proposed Approach
-1.	Gather & Prepare Photos: We will find and organize large collections of face pictures already labeled with emotions. We'll also slightly alter these pictures (e.g., rotate, brighten) to give our AI more diverse examples to learn from.
-●	Tools: Python, OpenCV, TensorFlow/Keras.
-2.	Build the AI "Brain": We'll design and set up a special deep learning structure called a Convolutional Neural Network (CNN). This "brain" will be capable of recognizing complex patterns in faces.
-●	Tools: TensorFlow or PyTorch.
-3.	Teach the AI "Brain": We will train the CNN by showing it thousands of our prepared face photos. The AI will learn to associate specific facial features with different emotions by repeatedly guessing and correcting itself.
-●	Tools: TensorFlow/Keras or PyTorch (ideally with a GPU).
-4.	Test & Demonstrate: After training, we will rigorously test the AI's accuracy on new, unseen face pictures. Finally, we will build a basic application to showcase the AI's ability to classify emotions quickly from new images.
-●	Tools: Python, OpenCV (for demo), and the saved AI model.
+## Proposed Approach
+* **Data Gathering & Preprocessing:** We will acquire large collections of labeled face images (e.g., FER-2013). We will perform data augmentation (rotation, brightness adjustments) to increase dataset diversity.
+    * *Tools:* Python, OpenCV, TensorFlow/Keras.
+* **Model Architecture (CNN):** We will design a Convolutional Neural Network (CNN) architecture optimized for image classification to recognize complex facial features.
+    * *Tools:* TensorFlow or PyTorch.
+* **Model Training:** We will train the CNN using the prepared dataset, optimizing weights to associate facial features with specific emotion labels.
+    * *Tools:* TensorFlow/Keras (GPU acceleration).
+* **Testing & Prototype:** We will evaluate the model on unseen data and build a basic Python application to demonstrate real-time classification.
+    * *Tools:* Python, OpenCV.
 
+## Expected Outcome
+An accurate facial expression recognition system with over **80% classification accuracy**, capable of real-time emotion detection across diverse individuals and conditions.
 
-●	Expected Outcome
-An accurate facial expression recognition system with over 85% classification accuracy, capable of real-time emotion detection across diverse individuals and conditions.
-
-●	Evaluation Metrics
-Accuracy: The percentage of emotions our model predicts correctly.
-Confusion Matrix: A table to see which emotions are being confused with each other (e.g., if the model mistakes "Sad" for "Neutral").
-Precision, Recall, and F1-Score: To measure the model's performance for each specific emotion category.
-
-
+## Evaluation Metrics
+* **Accuracy:** The percentage of emotions the model predicts correctly.
+* **Confusion Matrix:** A visualization to identify specific misclassifications (e.g., confusing "Sad" with "Neutral").
+* **Precision, Recall, and F1-Score:** To measure the model's performance for each specific emotion category, ensuring balanced detection.
