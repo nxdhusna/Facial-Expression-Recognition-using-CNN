@@ -1,7 +1,7 @@
 **Task:** PDM & Schedule Calculations
 
 ## 1. Why is identifying the critical path important for project managers?
-[cite_start]Identifying the critical path is crucial because it reveals the specific chain of activities that have "zero slack"[cite: 72]. In our PDM calculations, I saw that while the "CNN Architecture Design" had 4 days of float, the "Data Collection" path had none. This mathematical certainty tells me exactly which tasks will delay the entire project if they slip, allowing me to prioritize monitoring those specific activities over others.
+Identifying the critical path is crucial because it reveals the specific chain of activities that have "zero slack". In our PDM calculations, I saw that while the "CNN Architecture Design" had 4 days of float, the "Data Collection" path had none. This mathematical certainty tells me exactly which tasks will delay the entire project if they slip, allowing me to prioritize monitoring those specific activities over others.
 
 ## 2. Which activity posed the highest scheduling risk?
 **Activity E (Model Training)** posed the highest risk. Mathematically, it has the longest duration (6 days) and sits directly on the critical path. If our model fails to converge or the accuracy is poor, we cannot simply "make up the time" later because there is no slack. It acts as a bottleneck for the subsequent testing and integration phases.
