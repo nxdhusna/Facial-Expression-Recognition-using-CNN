@@ -1,27 +1,32 @@
-# Project Scope Document - SKIPZ
+# Project Scope Document
 
-## Objectives
-- **Data Collection:** Collect and prepare a dataset of at least 10,000 labeled facial expression images.
-- **Model Development:** Develop and train a CNN model capable of classifying facial expressions with a minimum 75% accuracy.
-- **System Performance:** Integrate the model into a prototype that performs classification within 500 milliseconds per image.
-- **Documentation:** Thoroughly evaluate performance and document the development process.
+**Project Title:** SKIPZ - Facial Expression Recognition using CNN
 
-## Deliverables
-1. **Prepared Dataset:** A cleaned and augmented dataset of facial images (rotated, brightened, labeled).
-2. **CNN Model:** A trained deep learning model (TensorFlow/Keras) optimized for emotion recognition.
-3. **Prototype Application:** A Python/OpenCV demo application that classifies emotions from new images in real-time.
-4. **Project Report:** A final report detailing the confusion matrix, precision, recall, and F1-scores.
+## 1. Project Objectives
+The primary goal of this project is to develop a Convolutional Neural Network (CNN) model that accurately identifies human facial expressions.
+* **Data Collection:** Collect and preprocess a dataset of at least **10,000 labeled facial images** (e.g., from FER-2013) with augmentation.
+* **Model Accuracy:** Develop and train a CNN model to classify emotions with a target accuracy of **80%** or higher.
+* **Real-Time Performance:** Ensure the prototype system can classify an image within **500 milliseconds** to demonstrate real-time capability.
+* **Ethical Compliance:** Ensure all data handling respects privacy standards and is used solely for academic research.
 
-## Stakeholders
-| Stakeholder | Role | Key Responsibility |
+## 2. Key Deliverables
+| Deliverable | Description |
+| :--- | :--- |
+| **Curated Dataset** | A cleaned, labeled, and augmented dataset of facial expressions (Rotated, brightened, normalized). |
+| **Trained Model** | The final serialized model file (`.h5` or `.pkl`) optimized for emotion classification. |
+| **Prototype Application** | A Python-based desktop application (using OpenCV) that takes an image/webcam feed and displays the predicted emotion. |
+| **Project Report** | A comprehensive document detailing the methodology, confusion matrix analysis, and final performance metrics (Precision, Recall, F1-Score). |
+
+## 3. Stakeholders
+| Stakeholder | Role | Responsibility |
 | :--- | :--- | :--- |
-| **Dr. Farhan Khan** | Project Supervisor | Approve milestones and grade deliverables. |
-| **SKIPZ Team** | Project Team | Execute Data, Modeling, and Testing phases. |
-| **University Lab Admin** | Infrastructure | Provide secure GPU server access and Wi-Fi. |
-| **Future Users** | End Users | Test the prototype for usability and responsiveness. |
+| **Dr. Farhan Khan** | Project Supervisor | Provides academic guidance, approves milestones, and evaluates final deliverables. |
+| **SKIPZ Team** | Project Team | Responsible for data collection, model training, interface development, and testing. |
+| **University Lab Admin** | Infrastructure Provider | Provides access to GPU resources and ensures network security compliance. |
+| **End Users** | Testing Group | Students or staff who will test the prototype to verify usability and responsiveness. |
 
-## Tools & Integration
-- **Programming:** Python, OpenCV, TensorFlow/Keras.
-- **Project Management:** Microsoft Planner / Excel.
-- **Version Control:** GitHub for code sharing.
-- **Communication:** Daily stand-ups via Microsoft Teams.
+## 4. Tools & Integration
+* **Project Management:** Microsoft Project / Excel (Scheduling), Microsoft Planner (Task Tracking).
+* **Version Control:** GitHub (Code repository and documentation storage).
+* **Collaboration:** Microsoft Teams (Daily stand-ups, file sharing, and peer reviews).
+* **Development Stack:** Python, TensorFlow/Keras, OpenCV.
