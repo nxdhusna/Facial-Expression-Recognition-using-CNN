@@ -14,19 +14,19 @@
 *Based on the highest scores above:*
 
 **1. R1 – Computer is too slow (Score: 16)**
-- *Mitigation:* Switch from local laptop training to **Paid Cloud GPUs (AWS/Colab Pro)**. We have allocated **RM 120** in the Week 05 budget to cover this resource if the free tier is insufficient.
+- *Mitigation:* Switch from local laptop training to **Paid Cloud GPUs (AWS/Colab Pro)**. We have allocated RM 120 in the Week 05 budget to cover this resource.
 - *Owner:* Angelo
-- *Tentative Date:* Week 07
+- *Tentative Date:* **Oct 14 (Week 04)** *(Aligned with Task 4.3.1 Model Training)*
 
 **2. R2 – Not enough face photos (Score: 15)**
 - *Mitigation:* If we cannot find 10,000 images, we will apply data augmentation (random rotations, lighting changes, flipping) to multiply our existing dataset.
 - *Owner:* Qasdina
-- *Tentative Date:* Week 06
+- *Tentative Date:* **Oct 08 (Week 03)** *(Aligned with Task 2.4.1 Augmentation)*
 
 **3. R3 – Video lag (Score: 12)**
 - *Mitigation:* Implement a frame-skipping algorithm (process every 3rd frame) or reduce input resolution (e.g., to 640x480) to improve speed.
 - *Owner:* Nadiah
-- *Tentative Date:* Week 09 (Testing Phase)
+- *Tentative Date:* **Oct 31 (Week 07)** *(Aligned with Task 7.2.1 End-to-End Testing)*
 
 # Integration Notes
 - **Budget Link:** R1 and R6 are directly linked to the "Model Training" budget in Week 05.
