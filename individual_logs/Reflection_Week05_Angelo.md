@@ -2,7 +2,7 @@
 ## Week 05 – Reflection on Cost Management
 
 ### 1. Which project phase has the highest cost and why?
-**Phase 6 (Dashboard Development)** has the highest estimated cost. This is driven primarily by **Human Resource** costs rather than hardware. Developing a functional real-time prototype requires specialized Full-Stack development hours (Task 6.3 and 6.4), which are billed at a higher rate and require more hours than the automated model training process in Phase 4.
+**Phase 8 (Report & Presentation) has the highest estimated cost (RM 1,600). This was surprising, as we initially assumed technical phases would be more expensive. However, the final documentation and delivery (Tasks 8.3.1 and 8.4.1) require all three team members to work simultaneously for final reviews and asset compilation. This "all-hands-on-deck" approach triples the hourly labor cost compared to development phases where members work individually.
 
 ### 2. How could you reduce costs without affecting quality?
 We could implement **Transfer Learning** (using a pre-trained model like VGG16) instead of training a CNN from scratch. This would significantly reduce the **GPU compute time** required in Phase 4 (Model Training), lowering cloud rental costs. Additionally, using open-source frameworks like **Streamlit** for the dashboard (Task 6.3) instead of building a custom React app would reduce developer hours.
