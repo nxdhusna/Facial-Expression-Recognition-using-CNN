@@ -95,7 +95,7 @@
 | Design slides | Qasdina | 8 | 20 | 160 |
 | Conduct team review | All Team (3) | 8 | 60 (20x3) | 480 |
 | Deliver final project assets | All Team (3) | 8 | 60 (20x3) | 480 |
-| **TOTAL PROJECT COST** | | | | **7,120** |
+| **TOTAL PROJECT COST** | | | | **6,840** |
 
 <br>
 
@@ -103,10 +103,10 @@
 
 | Cost Category | Description | Subtotal (RM) |
 | :--- | :--- | :--- |
-| **Human Resources** | 3 Team Members (Design, Dev, Testing, Documentation) | 7,000 |
+| **Human Resources** | 3 Team Members (Design, Dev, Testing, Documentation) | 6,720 |
 | **Hardware / Cloud** | Cloud GPU Rental (24 hours @ RM 5/hr) | 120 |
 | **Software / Licenses** | Open Source Tools (GitHub, Python, Teams) | 0 |
-| **TOTAL ESTIMATED BUDGET** | | **7,120** |
+| **TOTAL ESTIMATED BUDGET** | | **6,840** |
 
 <br>
 
