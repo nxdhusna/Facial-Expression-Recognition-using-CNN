@@ -1,5 +1,7 @@
-1. How does effective communication help mitigate project risks?
-Effective communication helps identify issues early and keeps the team aligned. In "SKIPZ," regular updates and open channels with stakeholders like the university helped us spot data and technical challenges quickly, reducing delays and misunderstandings.
+1. How does effective communication reduce project risks? Effective communication is vital for Cost and Resource Management. As the PM, I need to know immediately if a task is "stuck" so I can reallocate resources. For example, when Qasdina flagged that the "Data Cleaning" was taking longer than expected (Risk R2), clear communication allowed us to adjust the schedule before it derailed the entire timeline. Without these "flagging" mechanisms, minor delays would compound into major schedule slips.
 
-2. Who is the most vital stakeholder for your project's success, and why?
-The client's ethics review board is the most critical stakeholder because their approval is necessary for data collection. Securing their support ensures we meet ethical standards and can proceed without legal or compliance issues.
+2. Which stakeholder is most critical to your project’s success and why? The University IT Department is the most critical "Enabling Stakeholder."
+
+Reason: They control the physical infrastructure and network policies.
+
+Impact: Since our mitigation plan relies on accessing Cloud GPUs (AWS/Colab), strict university firewall policies could block our connection to these servers. If we do not communicate our technical needs to the IT Admin early, they could block our ports, rendering our "Paid GPU" strategy useless and causing the project to fail technically.
