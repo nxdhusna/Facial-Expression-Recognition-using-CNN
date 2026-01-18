@@ -3,7 +3,7 @@
 ## 1. Project Baseline Summary
 *Based on Week 03 Schedule and Week 05 Cost Plan:*
 * **Planned Duration:** 32 Days (Oct 07 – Nov 08)
-* [cite_start]**Planned Budget:** RM 6,840 [cite: 39]
+* **Planned Budget:** RM 6,840
 * **Key Milestones:**
     * Data Collection Complete: Oct 08
     * Model Training Complete: Oct 17
